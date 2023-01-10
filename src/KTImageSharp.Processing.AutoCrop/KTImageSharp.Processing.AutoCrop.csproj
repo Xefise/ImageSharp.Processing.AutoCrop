@@ -5,13 +5,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Copyright>Copyright 2021 Geta AS</Copyright>
     <Description>Automatic cropping for images with a flat background.
 Works with SixLabors.ImageSharp 2.0.0 and above.</Description>
-    <Authors>svenrog</Authors>
-    <Company>Geta AS</Company>
     <SignAssembly>false</SignAssembly>
-    <RepositoryUrl>https://github.com/Geta/ImageSharp.Processing.AutoCrop</RepositoryUrl>
+    <RepositoryUrl>https://github.com/khiemtong/ImageSharp.Processing.AutoCrop</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags></PackageTags>
     <Pack>true</Pack>  
@@ -28,11 +25,4 @@ Works with SixLabors.ImageSharp 2.0.0 and above.</Description>
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="..\..\README.md">
-      <Link>README.md</Link>
-    </Content>
-  </ItemGroup>
-
 </Project>
