@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ImageSharp.Processing.AutoCrop\ImageSharp.Processing.AutoCrop.csproj" />
+    <ProjectReference Include="..\..\src\KTImageSharp.Processing.AutoCrop\KTImageSharp.Processing.AutoCrop.csproj" />
   </ItemGroup>
 
   <ItemGroup>
