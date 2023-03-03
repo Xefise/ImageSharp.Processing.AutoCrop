@@ -368,3 +368,7 @@ is-cache/
 # Minified Js and Maps
 *.min.js
 *.min.map
+.idea/.idea.AutoCrop/.idea/vcs.xml
+.idea/.idea.AutoCrop/.idea/indexLayout.xml
+.idea/.idea.AutoCrop/.idea/aws.xml
+.idea/.idea.AutoCrop/.idea/.name
