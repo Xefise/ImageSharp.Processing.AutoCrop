@@ -2,8 +2,10 @@
 
 To build package, run locally to build a release configuration and pack the nuget package.
 
+See https://github.com/dotnet/sdk/issues/10335
+
 ```bash
-dotnet pack --configuration Release /p:Version=0.0.2
+dotnet pack AutoCrop.sln --configuration Release /p:Version=0.0.3 -p:GeneratePackageOnBuild=false
 ```
 
 ## Description
