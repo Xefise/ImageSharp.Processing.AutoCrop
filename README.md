@@ -1,5 +1,11 @@
 # ImageSharp.Processing.AutoCrop
 
+To build package, run locally to build a release configuration and pack the nuget package.
+
+```bash
+dotnet pack --configuration Release /p:Version=0.0.2
+```
+
 ## Description
 
 Automatic cropping for images with a flat background.
