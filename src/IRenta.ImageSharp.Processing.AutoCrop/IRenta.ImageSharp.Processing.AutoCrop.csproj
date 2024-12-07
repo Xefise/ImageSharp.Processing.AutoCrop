@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net7.0;net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Automatic cropping for images with a flat background.
 Works with SixLabors.ImageSharp 2.0.0 and above.</Description>
     <SignAssembly>false</SignAssembly>
-    <RepositoryUrl>https://github.com/khiemtong/ImageSharp.Processing.AutoCrop</RepositoryUrl>
+    <RepositoryUrl>https://github.com/xefise/ImageSharp.Processing.AutoCrop</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags></PackageTags>
     <Pack>true</Pack>  
@@ -16,7 +16,7 @@ Works with SixLabors.ImageSharp 2.0.0 and above.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SixLabors.ImageSharp" Version="[2.0.0, 3.0.0)" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="[2.0.0, 3.1.6)" />
   </ItemGroup>
 
   <ItemGroup>
