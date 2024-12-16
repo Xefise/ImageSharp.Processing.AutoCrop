@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharp.Web.AutoCrop", "src\ImageSharp.Web.AutoCrop\ImageSharp.Web.AutoCrop.csproj", "{0FC43DA5-A8A2-41DA-A0C6-C5A9CDFBDDFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{A77A54D1-25FE-4AB2-A582-CCADF7F40163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A77A54D1-25FE-4AB2-A582-CCADF7F40163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A77A54D1-25FE-4AB2-A582-CCADF7F40163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC43DA5-A8A2-41DA-A0C6-C5A9CDFBDDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC43DA5-A8A2-41DA-A0C6-C5A9CDFBDDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC43DA5-A8A2-41DA-A0C6-C5A9CDFBDDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC43DA5-A8A2-41DA-A0C6-C5A9CDFBDDFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
